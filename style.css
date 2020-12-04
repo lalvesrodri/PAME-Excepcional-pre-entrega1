@@ -73,6 +73,7 @@ body {
   justify-content: space-between;
   border-right-style:solid ;
   border-right-color:#eeeeee ;
+  
 }
 
 .titulo{
@@ -166,8 +167,9 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-right-style:solid ;
+  border-right-style:none ;
   border-right-color:#eeeeee ;
+  
 }
 
 #sub-perfil{
@@ -229,7 +231,7 @@ body {
   height: 325px;
   
   margin-bottom: 00px;
-  border-width: medium;
+  border-width: thin;
   border-style: none;
   border-color: #eeeeee;  
   border-right-style: solid;
@@ -237,7 +239,12 @@ body {
   
   
 }
-
+.comentario-borda{
+  background-color: white;
+  border-width: medium;
+  border-style: solid;
+  border-color: #eeeeee;
+}
 .icones{
   height: 130px;
   width: 100%;
@@ -246,8 +253,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start; 
-  border-width: medium;
-  border-style: solid;
+  border-width: thin;
+  border-style: none;
   border-color: #eeeeee;
 }
 #coracao2:hover,
