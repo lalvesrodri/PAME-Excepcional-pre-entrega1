@@ -11,7 +11,7 @@ body {
   background: white;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px;
 }
@@ -27,6 +27,24 @@ body {
   display: block;
   padding: 10px;
 }
+
+#navegador:hover,
+#origami:hover,
+#bussola:hover,
+#coracao:hover,
+#foto-perfil-2:hover{
+  background-color: red;
+  border:red;
+  width: 120%;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+
+
 .contenedor {  
   
   margin-left: 10%;
@@ -79,6 +97,11 @@ body {
 
 
 .foto-perfil{
+  display:flex;
+  align-items: center;
+  justify-self: space-between;
+  width: 350px;
+  background-color: white;
   
 
 }
@@ -101,6 +124,8 @@ body {
   background-color: white;
   height: 50px;
   width: 50px;
+  margin-left: 20px;
+  
     
 }
 .usuario{
@@ -130,36 +155,39 @@ body {
   margin-left: 10px;
   border-right-style: solid;
   border-right-color:#eeeeee ;
+  
 
 }
 
 .sub-titulo{
   background-color:white;
-  margin-left: 35px;
+  margin-left: 15px;
   margin-top: 10px;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   border-right-style:solid ;
   border-right-color:#eeeeee ;
 }
 
 #sub-perfil{
-  height: 30px;
-  width: 30px;  
+  height: 50px;
+  width: 50px;  
   border-radius: 100%;  
   border-width: medium;
   border-style: solid;
   border-color: red;
 }
 #sub-nome{
-  margin-left: 10px;
+  margin-left: 20px;
+  font-weight: bold;
   
 }
 
 .comentario1,
 .comentario2{
   background-color:white;
-  margin-left: 50px;
+  margin-left: 85px;
   margin-top: 25px;
   display: flex;
   
@@ -167,7 +195,7 @@ body {
 #motivacao,
 #motivacao2{
   margin-left: 00px;
-  font-size: 15px;
+  font-size: 14px;
 }
 #img-motivacao,
 #img2-motivacao{
@@ -197,10 +225,10 @@ body {
 }
 
 .comentario{
-  background-color:white;
-  height: 340px;
+  background-color: white;
+  height: 325px;
   
-  margin-bottom: 80px;
+  margin-bottom: 00px;
   border-width: medium;
   border-style: none;
   border-color: #eeeeee;  
@@ -222,7 +250,28 @@ body {
   border-style: solid;
   border-color: #eeeeee;
 }
-  
+#coracao2:hover,
+#comente2:hover,
+#navegador2:hover{
+  background-color: red;
+  border:red;
+  width: 30%;
+  display: flex;
+  align-items: center;
+
+}
+
+
+#save2:hover{
+  background-color: red;
+  border:red;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
 
 
 .lista1{
@@ -235,7 +284,7 @@ body {
 }
  
 .lista2{
-  background-color:white;
+  background-color white;
 }
 
 
