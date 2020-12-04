@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #eeeeee;;
+  background: #eeeeee;
 }
 .header {
   background: white;
@@ -35,12 +35,12 @@ body {
   margin-bottom:50 px;
   display: flex;
   justify-content: center;
-  background-color: blue;
+  background-color:#eeeeee;
 }
 #imagem{
   height: 100%;
   width: 100%;
-  background-color: tomato;  
+  background-color:white;  
    
   
   
@@ -49,14 +49,14 @@ body {
 .bloco2{
   height: 100 px;
   width: 30% ;
-  background-color: yellow;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .titulo{
-  background-color: violet;
+  background-color:white;
   border-bottom-width: thin ;
   border-bottom-style: dotted;
   
@@ -68,7 +68,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: cornsilk;
+  background-color: white;
 
 }
 
@@ -103,24 +103,24 @@ body {
 }
 
 .futter{
-  background-color: lightblue;
+  background-color: white;
   height: 100px;
   display: flex;
   justify-content: space-between;
 }
 
 .flex{
-  background-color: brown;
+  background-color: white;
 }
 
 .bloco3{
-  background-color: saddlebrown;
+  background-color: white;
   margin-left: 10px;
 
 }
 
 .sub-titulo{
-  background-color: aqua;
+  background-color:white;
   margin-left: 10px;
   margin-top: 10px;
   display: flex;
@@ -142,7 +142,7 @@ body {
 
 .comentario1,
 .comentario2{
-  background-color: coral;
+  background-color:white;
   margin-left: 50px;
   margin-top: 25px;
   display: flex;
@@ -170,18 +170,18 @@ body {
 .final{
   display: flex;
   justify-content: space-between;  
-  background-color: lightseagreen;
+  background-color: white;
   width: 100px;
   margin-top: 25px;
 }
 .salvar{
   margin-top: 15px;
-  background-color: lightseagreen;
+  background-color: white;
 
 }
 
 .comentario{
-  background-color: magenta;
+  background-color:white;
   height: 100px;
   margin-bottom: 80px;
   border-width: medium;
@@ -193,26 +193,26 @@ body {
 .icones{
   height: 100px;
   width: 100%;
-  background-color: slategray;
+  background-color:white;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .lista1{
-  background-color: teal;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   width: 30%;
   margin-left: 5%;
 }
 .lista2{
-  background-color: thistle;
+  background-color:white;
 }
 
 
 .formulario{
-  background-color: navajowhite;
+  background-color: white;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -222,7 +222,7 @@ body {
 }
 
 #adicionar_um_comentario{
-  background-color: maroon;
+  background-color:white;
   margin-top: 20px;
   height: 50px;
   width: 100%;
@@ -234,7 +234,7 @@ body {
 }
 
 #publicar{
-  background-color: midnightblue;
+  background-color:white;
   width: 65px;
   margin-top: 20px;
   margin-right: 00px;
