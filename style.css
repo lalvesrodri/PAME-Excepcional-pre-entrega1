@@ -112,7 +112,7 @@ body {
   border-radius: 100%;  
   border-width: medium;
   border-style: solid;
-  border-color: red;
+  border-color:#c56a95;
   margin-top: 25px;
   margin-left: 20px;
   background-color: red;
@@ -178,7 +178,7 @@ body {
   border-radius: 100%;  
   border-width: medium;
   border-style: solid;
-  border-color: red;
+  border-color:#c56a95;
 }
 #sub-nome{
   margin-left: 20px;
@@ -291,7 +291,7 @@ body {
 }
  
 .lista2{
-  background-color white;
+  background-color:white;
 }
 
 
@@ -330,7 +330,7 @@ body {
   border-style: none;
   border-color: #eeeeee;
   font-size: 20px;
-  color:blue;
+  color:#c4ddf3;
 }
 #publicar:hover{
   background-color: red;
